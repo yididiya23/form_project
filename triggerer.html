@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Resume Review Test</title>
+</head>
+<body>
+  <h2>Resume Review Test Form</h2>
+  <form action="https://myididiyam.app.n8n.cloud/webhook-test/resume-review" method="POST" enctype="multipart/form-data">
+    
+    <label>Candidate Name:</label><br>
+    <input type="text" name="candidate_name" required><br><br>
+
+    <label>Job Role:</label><br>
+    <input type="text" name="job_role" required><br><br>
+
+    <label>Upload Resume (PDF only):</label><br>
+    <input type="file" name="resume_pdf" accept=".pdf" required><br><br>
+
+    <button type="submit">Submit for Review</button>
+  </form>
+</body>
+</html>
